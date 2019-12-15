@@ -1,9 +1,9 @@
- def square_array(array)
- new_array = []
+def square_array
+  my_array = [1]
 
-  new_array.each do |num|
-    new_array << num+1
-    puts "new number #{num}"
+  my_array.each do |num|
+    my_array << num*2
+    puts "squared number #{num}"
   end
 end
- square_array
+  square_array
